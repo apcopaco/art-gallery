@@ -10,7 +10,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
+}
+
+body {
+    color: #F2F2F2;;
+}
 
 header {
     padding-bottom: 200px;
@@ -31,6 +35,8 @@ header {
     color: rgba(21, 21, 21, 1);
     margin-top: 32px;
     margin-bottom: 32px;
+    
+    
 }
 
 
@@ -119,6 +125,7 @@ main {
     color: #151515;
     line-height: 45px;
     padding-bottom: 21px;
+    
 }
 
 .main_text1 p {
