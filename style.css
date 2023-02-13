@@ -1,0 +1,309 @@
+/* mobile-size *//* mobile-size */
+/* mobile-size *//* mobile-size */
+/* mobile-size *//* mobile-size */
+
+
+
+/* header *//* header */
+/* header *//* header */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+header {
+    padding-bottom: 120px;
+}
+
+
+.mobile_header_photo {
+    width: 100%;
+}
+.header_texts {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.header_texts h1 {
+    font-size: 60px;    
+    font-weight: 900;
+    line-height: 55px;
+    color: rgba(21, 21, 21, 1);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+h1 {
+    font-family: "Big Shoulders Display";
+    
+}
+
+h2 {
+    font-family: "Big Shoulders Display";
+}
+
+
+p {
+    font-family: "Outfit";
+}
+
+
+
+
+
+
+.header_texts p {
+    font-size: 18px;
+    color: #444444;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.header_button {
+    background-color: #151515;
+    height: 72px;
+    width: 204px;
+    border: none;
+    
+    
+    
+    
+    
+}
+
+.header_button h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.arrow_div {
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 24px;
+    padding-left: 24px;
+    position: absolute;
+    
+}
+
+
+a {
+    position: absolute;
+    right: 115px;
+}
+
+
+.button_arrow {
+    display: flex;
+    flex-direction: row;
+    
+}
+/* End-header *//* End-header */
+/* End-header *//* End-header */
+
+
+
+/* main *//* main */
+/* main *//* main */
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container1_img1 {
+    padding-bottom: 25px;
+}
+
+.main_text1 h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #151515;
+    line-height: 45px;
+    padding-bottom: 21px;
+}
+
+.main_text1 p {
+    font-size: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    padding-bottom: 32px;
+}   
+
+.container2_img1 {
+    padding-bottom: 16px;
+}
+
+.container2_img2 {
+    padding-bottom: 16px;
+}
+
+.main_text2 {
+    background-color: #151515;
+    height: 293px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 24px;
+    margin-bottom: 120px;
+}
+
+.main_text2 h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 24px;
+
+}
+
+.main_text2 p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* End-main *//* End-main */
+/* End-main *//* End-main */
+
+
+
+/* Start footer *//* Start footer */
+/* Start footer *//* Start footer */
+
+footer {
+    width: 100%;
+    background-color: #151515;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-right: 32px;
+}
+
+.footer_div p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+
+
+.footer_logos3 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+/* End footer *//* End footer */
+/* End footer *//* End footer */
+
+
+/* location page *//* location page *//* location page *//* location page */
+/* location page *//* location page *//* location page *//* location page */
+/* location page *//* location page *//* location page *//* location page */
+body {
+    width: 100%;
+    
+}
+
+
+.header2 {
+    position: relative;
+    height: 574px;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.main2 {
+    background-color: #151515;
+    height: 493px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 48px;
+    
+
+}
+
+
+.main2 h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+
+}
+
+.main2 h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #D5966C;
+    margin-top: 48px;
+    margin-bottom: 20px;
+
+}
+
+.main2 p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+    
+}
+.address {
+    margin-bottom: 20px;
+}
+
+.footer2 {
+    background-color: #D5966C;
+    display: flex;
+    height: 336px;
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-right: 32px;
+}
+
+
+
+.footer2_div p {
+    color: #151515;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+.footer2_logos3 {
+    color: #151515;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    filter: invert(1);
+}
+
+
+
+
+/* end of location page *//* end of location page *//* end of location page */
+/* end of location page *//* end of location page *//* end of location page */
+/* end of location page *//* end of location page *//* end of location page */
