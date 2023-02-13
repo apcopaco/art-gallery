@@ -13,7 +13,7 @@
   }
 
 header {
-    padding-bottom: 120px;
+    padding-bottom: 200px;
 }
 
 
@@ -66,23 +66,14 @@ p {
     height: 72px;
     width: 204px;
     border: none;
-    
-    
-    
-    
-    
-}
-
-.header_button h1 {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 800;
     line-height: 24px;
     letter-spacing: 3.6px;
-    margin-bottom: 0;
-    margin-top: 0;
-    
+    font-family: "Big Shoulders Display";  
 }
+
 
 .arrow_div {
     width: 56px;
@@ -90,25 +81,20 @@ p {
     background-color: #D5966C;
     justify-content: center;
     align-items: center;
+    display: flex;  
+}
+
+
+.link {
     display: flex;
-    padding-right: 24px;
-    padding-left: 24px;
-    position: absolute;
-    
 }
 
 
 a {
     position: absolute;
-    right: 115px;
+    text-decoration: none;
 }
 
-
-.button_arrow {
-    display: flex;
-    flex-direction: row;
-    
-}
 /* End-header *//* End-header */
 /* End-header *//* End-header */
 
@@ -219,10 +205,7 @@ footer {
 /* location page *//* location page *//* location page *//* location page */
 /* location page *//* location page *//* location page *//* location page */
 /* location page *//* location page *//* location page *//* location page */
-body {
-    width: 100%;
-    
-}
+
 
 
 .header2 {
@@ -231,6 +214,11 @@ body {
     display: flex;
     width: 100%;
 }
+.map {
+    width: 100%;
+}
+    
+
 
 
 
@@ -240,6 +228,7 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 48px;
+    width: 100%;
     
 
 }
@@ -276,11 +265,13 @@ body {
 
 .footer2 {
     background-color: #D5966C;
+    width: 100%;
     display: flex;
     height: 336px;
     padding-left: 32px;
     padding-top: 48px;
     padding-right: 32px;
+    
 }
 
 
