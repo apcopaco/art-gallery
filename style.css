@@ -1,11 +1,12 @@
+/* mobile-size */
+/* mobile-size */
+/* mobile-size */
 /* mobile-size *//* mobile-size */
 /* mobile-size *//* mobile-size */
-/* mobile-size *//* mobile-size */
-
-
-
-/* header *//* header */
-/* header *//* header */
+/* mobile-size *//* mobile-size *//* mobile-size */
+/* mobile-size *//* mobile-size *//* mobile-size */
+/* mobile-size *//* mobile-size *//* mobile-size *//* mobile-size */
+/* mobile-size *//* mobile-size *//* mobile-size *//* mobile-size */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,6 +17,12 @@ body {
     color: #F2F2F2;;
 }
 
+
+
+/* stert-header *//* stert-header */
+/* stert-header *//* stert-header */
+/* stert-header *//* stert-header */
+
 header {
     padding-bottom: 200px;
 }
@@ -24,6 +31,22 @@ header {
 .mobile_header_photo {
     width: 100%;
 }
+.tablet_header_photo {
+    display: none;
+}
+
+.tablet_container1_img1 {
+    display: none;
+}
+
+.tablet_container2_img1 {
+    display: none;
+}
+
+.tablet_container2_img2 {
+    display: none;
+}
+
 .header_texts {
     padding-left: 16px;
     padding-right: 16px;
@@ -34,9 +57,7 @@ header {
     line-height: 55px;
     color: rgba(21, 21, 21, 1);
     margin-top: 32px;
-    margin-bottom: 32px;
-    
-    
+    margin-bottom: 32px;   
 }
 
 
@@ -97,7 +118,7 @@ p {
 
 
 a {
-    position: absolute;
+    
     text-decoration: none;
 }
 
@@ -175,6 +196,10 @@ main {
 
 
 
+
+
+
+
 /* Start footer *//* Start footer */
 /* Start footer *//* Start footer */
 
@@ -189,7 +214,7 @@ footer {
     padding-right: 32px;
 }
 
-.footer_div p {
+.footer_text {
     color: #FFFFFF;
     font-weight: 300;
     font-size: 16px;
@@ -216,13 +241,17 @@ footer {
 
 
 .header2 {
-    position: relative;
+    
     height: 574px;
     display: flex;
     width: 100%;
 }
 .map {
     width: 100%;
+}
+
+.tablet_map {
+    display: none;
 }
     
 
@@ -283,7 +312,7 @@ footer {
 
 
 
-.footer2_div p {
+.footer2_text {
     color: #151515;
     font-weight: 300;
     font-size: 16px;
@@ -305,3 +334,284 @@ footer {
 /* end of location page *//* end of location page *//* end of location page */
 /* end of location page *//* end of location page *//* end of location page */
 /* end of location page *//* end of location page *//* end of location page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet-Size */
+/* Tablet-Size */
+/* Tablet-Size */
+/* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size *//* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size *//* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size *//* Tablet-Size *//* Tablet-Size */
+/* Tablet-Size *//* Tablet-Size *//* Tablet-Size *//* Tablet-Size *//* Tablet-Size */
+
+@media (min-width: 768px){
+
+/* Tablet stert-header *//* Tablet stert-header *//* Tablet stert-header */
+/* Tablet stert-header *//* Tablet stert-header *//* Tablet stert-header */
+/* Tablet stert-header *//* Tablet stert-header *//* Tablet stert-header */
+    
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-bottom: 120px;
+
+}
+
+.mobile_header_photo {
+    display: none;
+}
+
+.tablet_header_photo {
+    display: inline;
+
+}
+
+
+
+.modern_art {
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 389px;
+    
+    
+
+    
+    
+    
+
+
+}
+
+.text2 {
+    width: 339px;
+}
+/* Tablet End-header *//* Tablet End-header *//* Tablet End-header *//* Tablet End-header */
+/* Tablet End-header *//* Tablet End-header *//* Tablet End-header *//* Tablet End-header */
+/* Tablet End-header *//* Tablet End-header *//* Tablet End-header *//* Tablet End-header */
+
+
+
+
+
+
+/* Tablet main *//* Tablet main *//* Tablet main *//* Tablet main */
+/* Tablet main *//* Tablet main *//* Tablet main *//* Tablet main */
+/* Tablet main *//* Tablet main *//* Tablet main *//* Tablet main */
+
+main {
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-bottom: 120px;
+}
+
+.container1_img1 {
+    display: none;
+}
+
+.tablet_container1_img1 {
+    display: inline;
+}
+
+.main_container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+.main_text1 {
+    width: 223px;
+    margin-top: 40px;
+}
+
+.main_text2 {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.container2_img1 {
+    display: none;
+}
+
+.tablet_container2_img1 {
+    display: inline;
+}
+
+.container2_img2 {
+    display: none;
+}
+
+.tablet_container2_img2 {
+    display: inline;
+}
+
+.main_container2 {
+   display: flex; 
+    
+
+}
+
+.main_text2 {
+    width: 280px;
+    height: 396px;
+    padding: 38px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+.main_container3 {
+    margin-left: 11px;
+
+}
+
+/* Tablet End-main *//* Tablet End-main *//* Tablet End-main *//* Tablet End-main */
+/* Tablet End-main *//* Tablet End-main *//* Tablet End-main *//* Tablet End-main */
+/* Tablet End-main *//* Tablet End-main *//* Tablet End-main *//* Tablet End-main */
+
+
+
+
+/* Tablet Start footer *//* Tablet Start footer *//* Tablet Start footer */
+/* Tablet Start footer *//* Tablet Start footer *//* Tablet Start footer */
+/* Tablet Start footer *//* Tablet Start footer *//* Tablet Start footer */
+footer {
+    height: 216px;
+    flex-direction: row;
+    padding-left: 39px;
+    padding-bottom: 56px;
+    padding-top: 56px;
+    padding-right: 39px;
+    justify-content: space-between
+    
+}
+
+.footer_text {
+    width: 281px;
+    margin-top: -10px;
+    margin-right:  65px;
+      
+}
+
+
+.footer_logo1 {
+    height: 40px;
+}
+
+.footer_logos3 {
+    height: 20px;
+    
+}
+/* Tablet End footer *//* Tablet End footer *//* Tablet End footer */
+/* Tablet End footer *//* Tablet End footer *//* Tablet End footer */
+
+
+
+
+
+/* Tablet location page *//* Tablet location page *//* Tablet location page */
+/* Tablet location page *//* Tablet location page *//* Tablet location page */
+/* Tablet location page *//* Tablet location page *//* Tablet location page */
+
+
+
+/* Tablet header *//* Tablet header */
+/* Tablet header *//* Tablet header */
+.map {
+    display: none;
+}
+
+.tablet_map {
+    display: inline;
+    width: 100%;
+    
+}
+.header2 {
+    height: 600px;
+    
+}
+.link {
+    margin-left: 39px;
+    
+
+}
+/* Tablet end header *//* Tablet end header */
+/* Tablet end header *//* Tablet end header */
+
+
+
+/* Tablet main *//* Tablet main */
+/* Tablet main *//* Tablet main */
+
+.main2 {
+    height: 436px;
+    padding-left: 39px;
+    padding-right: 40px;
+    padding-top: 88px;
+    display: flex;
+    gap: 68px;  
+   
+}
+
+
+    
+
+}
+.main2_long_text {
+    width: 398px;
+}
+
+
+.main2_address h2 {
+    margin-top: 0px;
+}
+
+
+
+
+/* tablet start location footer *//* tablet start location footer */
+/* tablet start location footer *//* tablet start location footer */
+
+.footer2 {
+    height: 216px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer2_div {
+    display: flex;
+    flex-direction: row;
+}
+.footer2_text {
+    width: 281px;
+    margin-left: 65px;
+    margin-top: -8px;
+}
+
+.footer2_logos3 {
+    height: 20px;
+    margin-left: 133px;
+}
+
+/* Tablet end location footer *//* Tablet end location footer */
+/* Tablet end location footer *//* Tablet end location footer */
+/* Tablet end location footer *//* Tablet end location footer */
+
