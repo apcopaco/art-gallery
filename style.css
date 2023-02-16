@@ -826,4 +826,34 @@ a {
   .footer_logos3 {
     margin-left: 80px;
   }
+
+
+.instagram:hover {
+    cursor: pointer;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.twitter:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 }
